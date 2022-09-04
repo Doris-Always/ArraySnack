@@ -27,12 +27,7 @@ public class Television {
     public int getChannel() {
         return channel;
     }
-//    public void channelIncrement(){
-//        if (channel > 25){
-//            channel = 0;
-//        }
-//         channel++;
-//    }
+
     public void increaseTvChannel() {
             if(isOn && channel < 25){
                 channel++;
