@@ -64,11 +64,11 @@ public class Television {
         return volume;
     }
 
-    public int decreaseVolume() {
+    public void decreaseVolume() {
         if (volume < 1){
-            return 0;
+            volume = 0;
         }
-        return volume--;
+         volume--;
     }
 
     public void muteTvVolume() {
