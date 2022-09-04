@@ -7,8 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Dzy9eQ8EYjTSb7SwBXNArgGHYd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,20 +26,116 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero">
+    <configuration name="TelevisionTest.testThatTvChannelDecrementCannotGoBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="television.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="television" />
+      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
+      <option name="METHOD_NAME" value="testThatTvChannelDecrementCannotGoBelowZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest.testThatTvVolumeCanDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="television.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="television" />
+      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
+      <option name="METHOD_NAME" value="testThatTvVolumeCanDecrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest.testThatTvVolumeCanIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="television.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="television" />
+      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
+      <option name="METHOD_NAME" value="testThatTvVolumeCanIncrease" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="television.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="television" />
+      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
+      <option name="METHOD_NAME" value="testThatTvVolumeCannotDecreaseBeyondZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionTest.testThatTvVolumeCannotIncreaseMoreThanThirty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="television.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="television" />
+      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
+      <option name="METHOD_NAME" value="testThatTvVolumeCannotIncreaseMoreThanThirty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero" />
+        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCanDecrease" />
+        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCannotIncreaseMoreThanThirty" />
+        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCanIncrease" />
+        <item itemvalue="JUnit.TelevisionTest.testThatTvChannelDecrementCannotGoBelowZero" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,7 +144,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661716061601</updated>
+      <workItem from="1661716064139" duration="9067000" />
+      <workItem from="1661830874795" duration="42562000" />
     </task>
+    <task id="LOCAL-00001" summary="array codes and its test,a television that has been tested">
+      <created>1661943109452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661943109453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="array codes and its test,a television that has been tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="array codes and its test,a television that has been tested" />
   </component>
 </project>
