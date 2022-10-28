@@ -143,6 +143,32 @@ public class TelevisionTest {
         }
         assertEquals(0,sonyTv.getVolume());
     }
+
+    @Test
+    public void testThatTvVolumeCanBeMuted(){
+        sonyTv.turnOn();
+        assertTrue(sonyTv.isOn());
+        for (int i = 0; i < 30; i++) {
+            sonyTv.increaseVolume();
+        }
+        sonyTv.muteControl();
+        assertEquals(0,sonyTv.getVolume());
+
+
+    }
+
+    @Test
+    public void testThatTvVolumeCanBeUnMuted(){
+        sonyTv.turnOn();
+        assertTrue(sonyTv.isOn());
+        sonyTv.increaseVolume();
+        sonyTv.increaseVolume();
+        sonyTv.increaseVolume();
+        sonyTv.muteControl();
+        assertEquals(0,sonyTv.getVolume());
+        sonyTv.muteControl();
+        assertEquals(3,sonyTv.getVolume());
+    }
 //    @Test
 //    public void testThatTvVolumeCanBeMuted(){
 //        sonyTv.turnOn();

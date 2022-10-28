@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2667df3d-f9eb-4499-b1c2-8c2acf13934f" name="Changes" comment="" />
+    <list default="true" id="2667df3d-f9eb-4499-b1c2-8c2acf13934f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayFun/ArrayFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayFun/ArrayFun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/television/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/television/Television.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ArrayFun/ArrayFunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ArrayFun/ArrayFunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/television/TelevisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/television/TelevisionTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,82 +51,79 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero">
-    <configuration name="TelevisionTest.testThatTvChannelDecrementCannotGoBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArrayFunTest.testAlternatingElements">
+    <configuration name="ArrayFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayFun.ArrayFun" />
       <module name="ArraySnack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="television.*" />
+          <option name="PATTERN" value="ArrayFun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="television" />
-      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
-      <option name="METHOD_NAME" value="testThatTvChannelDecrementCannotGoBelowZero" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayFunTest.testAlternatingElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ArraySnack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayFun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ArrayFun" />
+      <option name="MAIN_CLASS_NAME" value="ArrayFun.ArrayFunTest" />
+      <option name="METHOD_NAME" value="testAlternatingElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelevisionTest.testThatTvVolumeCanDecrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayFunTest.testRunningSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArraySnack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="television.*" />
+          <option name="PATTERN" value="ArrayFun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="television" />
-      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
-      <option name="METHOD_NAME" value="testThatTvVolumeCanDecrease" />
+      <option name="PACKAGE_NAME" value="ArrayFun" />
+      <option name="MAIN_CLASS_NAME" value="ArrayFun.ArrayFunTest" />
+      <option name="METHOD_NAME" value="testRunningSum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelevisionTest.testThatTvVolumeCanIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayFunTest.testThatAllTheElementAtOddPositionsAreReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArraySnack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="television.*" />
+          <option name="PATTERN" value="ArrayFun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="television" />
-      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
-      <option name="METHOD_NAME" value="testThatTvVolumeCanIncrease" />
+      <option name="PACKAGE_NAME" value="ArrayFun" />
+      <option name="MAIN_CLASS_NAME" value="ArrayFun.ArrayFunTest" />
+      <option name="METHOD_NAME" value="testThatAllTheElementAtOddPositionsAreReturned" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayFunTest.testThatAnElementOccursInAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArraySnack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="television.*" />
+          <option name="PATTERN" value="ArrayFun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="television" />
-      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
-      <option name="METHOD_NAME" value="testThatTvVolumeCannotDecreaseBeyondZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TelevisionTest.testThatTvVolumeCannotIncreaseMoreThanThirty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ArraySnack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="television.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="television" />
-      <option name="MAIN_CLASS_NAME" value="television.TelevisionTest" />
-      <option name="METHOD_NAME" value="testThatTvVolumeCannotIncreaseMoreThanThirty" />
+      <option name="PACKAGE_NAME" value="ArrayFun" />
+      <option name="MAIN_CLASS_NAME" value="ArrayFun.ArrayFunTest" />
+      <option name="METHOD_NAME" value="testThatAnElementOccursInAList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCannotDecreaseBeyondZero" />
-        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCanDecrease" />
-        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCannotIncreaseMoreThanThirty" />
-        <item itemvalue="JUnit.TelevisionTest.testThatTvVolumeCanIncrease" />
-        <item itemvalue="JUnit.TelevisionTest.testThatTvChannelDecrementCannotGoBelowZero" />
+        <item itemvalue="JUnit.ArrayFunTest.testAlternatingElements" />
+        <item itemvalue="JUnit.ArrayFunTest.testRunningSum" />
+        <item itemvalue="JUnit.ArrayFunTest.testThatAllTheElementAtOddPositionsAreReturned" />
+        <item itemvalue="Application.ArrayFun" />
+        <item itemvalue="JUnit.ArrayFunTest.testThatAnElementOccursInAList" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +148,15 @@
       <option name="presentableId" value="Default" />
       <updated>1661716061601</updated>
       <workItem from="1661716064139" duration="9067000" />
-      <workItem from="1661830874795" duration="42562000" />
+      <workItem from="1661830874795" duration="56128000" />
+      <workItem from="1662973651067" duration="17000" />
+      <workItem from="1663394795045" duration="329000" />
+      <workItem from="1663395321034" duration="1698000" />
+      <workItem from="1663398389916" duration="13037000" />
+      <workItem from="1663502895913" duration="15463000" />
+      <workItem from="1663680945601" duration="1156000" />
+      <workItem from="1664398321832" duration="36000" />
+      <workItem from="1666953913731" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="array codes and its test,a television that has been tested">
       <created>1661943109452</created>
@@ -154,7 +165,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661943109453</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="committing changes after refractoring my code">
+      <created>1662296112430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296112430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="committing changes after refractoring my code">
+      <created>1662296673160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296673160</updated>
+    </task>
+    <task id="LOCAL-00004" summary="committing changes after refractoring my code">
+      <created>1662296735856</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296735858</updated>
+    </task>
+    <task id="LOCAL-00005" summary="committing changes after refractoring my code">
+      <created>1666953952665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953952665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +212,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="array codes and its test,a television that has been tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="array codes and its test,a television that has been tested" />
+    <MESSAGE value="committing changes after some more codes and updates," />
+    <MESSAGE value="committing changes after refractoring my code" />
+    <option name="LAST_COMMIT_MESSAGE" value="committing changes after refractoring my code" />
   </component>
 </project>

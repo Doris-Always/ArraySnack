@@ -5,6 +5,10 @@ public class Television {
     private int channel;
 
     private int volume;
+
+    private boolean isMute;
+
+    private int tempVolume;
     public boolean isOn() {
         return isOn;
     }
@@ -52,6 +56,7 @@ public class Television {
     public void increaseVolume() {
         if (volume < 30){
               volume++;
+              tempVolume++;
         }
 
     }
@@ -60,15 +65,34 @@ public class Television {
     }
 
     public void decreaseVolume() {
-        if (volume < 1){
+        if (volume < 30){
+            volume--;
+            tempVolume--;
+        }
+         volume = 0;
+
+    }
+    public void muteControl(){
+        if (!isMute)muteTv();
+        else UnMuteTv();
+    }
+    public void muteTv(){
+        if (!isMute){
+            isMute = true;
             volume = 0;
         }
-         volume--;
     }
 
-    public void muteTvVolume() {
-       volume = 0;
+    public void UnMuteTv(){
+        isMute = false;
+        volume = tempVolume;
     }
+//    public void muteTvVolume() {
+//       else {
+//
+//        }
+//
+//    }
 
 
 
